@@ -17,4 +17,4 @@ RUN apt-get update && apt-get install -qy \
 
 ENTRYPOINT [ "links" ]
 
-CMD http://google.com
+CMD ["http://google.com"]
