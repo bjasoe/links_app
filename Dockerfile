@@ -15,3 +15,5 @@ RUN apt-get update && apt-get install -qy \
     --no-install-recommends
 
 ENTRYPOINT [ "links" ]
+
+CMD http://google.com
