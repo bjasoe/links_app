@@ -13,7 +13,9 @@ MAINTAINER Bjarne Sorensen <bjarne@ano.dk>
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -qy \
-    links \
+    links 
+
+RUN mkdir ~/.links2
 
 ENTRYPOINT [ "links" ]
 
