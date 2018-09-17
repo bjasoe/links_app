@@ -3,12 +3,12 @@
 # 
 # 2015-03-11 BJS : Created and tested Docker file
 #
-# to build : docker build -t links_app .
-# to run : docker run -it --rm links_app
+# to build : docker build -t imagename .
+# to run : docker run -it --rm imagename
 #
 
 FROM debian:jessie
-MAINTAINER Bjarne Sorensen <bjarne@ano.dk>
+MAINTAINER Bjarne Sorensen <bjsdocker@ano.dk>
 
 ENV DEBIAN_FRONTEND noninteractive
 
